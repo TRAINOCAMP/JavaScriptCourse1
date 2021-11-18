@@ -1,0 +1,46 @@
+#top p{
+  padding: 0.25em 0.5em;/*上下 左右の余白*/
+  color: #494949;/*文字色*/
+  //background: transparent;/*背景透明に*/
+  //border-left: solid 5px #7db4e6;/*左線*/
+  border-bottom:2px solid #666666; /*下線の太さと色*/
+  display: inline-block;/*下線は横幅いっぱいにしない*/
+  padding-bottom:2px;/*テキストから下線までの間隔*/
+  font-size:40px;
+  font-weight: bold;
+}
+
+#contents h1 {
+  padding: 0.25em 0.5em;/*上下 左右の余白*/
+  color: #494949;/*文字色*/
+  background: transparent;/*背景透明に*/
+  border-left: solid 5px #7db4e6;/*左線*/
+}
+
+
+#menu ul{ 
+margin: 0; 
+padding: 0; 
+list-style: none; 
+}
+#menu li{ 
+display: inline; 
+padding: 0; 
+margin: 0; 
+}
+#menu li a{
+display: block;
+border: 1px solid #9F99A3;
+background-color: #EEEEEE;
+padding :16px;
+text-decoration: none;
+color: #333;
+margin: 8px 30px;
+text-align: left;
+font-size: 16px;
+font-weight: bold;
+}
+#menu li a:hover{
+border: 1px solid #8593A9;
+background-color: #73BDFA;
+}
