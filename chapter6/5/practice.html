@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>JavaScript タイトル　サンプル</title>
+<link rel="stylesheet" href="../../css/style.css">
+</head>
+<body>
+
+<div id="top">
+<p>JavaScriptプログラミング本格入門</p>
+</div>
+
+
+<div id="contents">
+<h1>6-5. 練習問題：thisキーワードを使ってみよう</h1>
+
+<ul>
+<li>script.jsファイルに次の記述をJavaScripで書いてください。</li>
+<li>オブジェクトが２つ定義されています。</li>
+<li>greet関数の処理を次のように書き換えてください。</br>
+コンソール画面に、</br>
+こんにちは、〇〇です！</br>
+△△に勤めています。</br>
+と出力してください。〇〇はオブジェクト内で定義した名前を表示します。</br>
+△△はグローバル変数で宣言した変数を使います。</br>
+</li>
+<li>for文を使い、配列 memberのオブジェクト内の関数greetを実行します。</br>
+実行結果（関数の戻り値）をコンソール画面に出力してください。</li>
+<li>JavaScriptのコードが書けたら保存をしてブラウザの更新で実行してみてください。</li>
+</br>
+
+<li>ヒント：</br>
+自分のオブジェクトのプロパティ値は、thisキーワードで this.プロパティ値 </br>
+配列（オブジェクト）の外で宣言した変数は、グローバル変数（グローバルスコープ）</br>
+文字列連結を用いて、”こんにちは、”、”です！”とthis.〇〇の文字列を連結します。</br>
+文字列連結を用いて、”に勤めています。”とグローバル変数の文字列を連結します。</br>
+</li>
+</ul>
+</div>
+
+</br>
+</br>
+
+<div id="menu">
+<ul>
+  <li><a href="../../index.html#section6" style="width: fit-content;">トップページに戻る</a></li>
+</ul> 
+</div>
+
+<p>
+（補足）</br>
+このHTMLファイルの中で 下記のような script.js ファイルを読み込むコードが入っています。</br>
+　HTMLファイルの記述内容</br>
+  　&ltscript src = "./script.js"&gt</br>
+  　&lt/script&gt</li></br>
+スクリプトファイルからHTMLのタグを挿入するコードを追加したら、下のスクリプトエリアに表示されます。</br>
+</p>
+<h1>スクリプトエリア</h1>
+<script src="./script.js">
+</script>
+
+
+</body>
+
+</html>

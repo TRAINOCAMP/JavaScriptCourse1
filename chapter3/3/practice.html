@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>JavaScript タイトル　サンプル</title>
+<link rel="stylesheet" href="../../css/style.css">
+</head>
+<body>
+
+<div id="top">
+<p>JavaScriptプログラミング本格入門</p>
+</div>
+
+
+<div id="contents">
+<h1>3-3. 練習問題：繰り返し処理中の終了とスキップ</h1>
+
+<ul>
+<li>script.jsファイルに次の記述をJavaScripで書いてください。</li>
+<li>for文を用いて1から100を順番に出力するプログラムがあります。</li>
+<li>このプログラムに以下の条件を追加してプログラムを完成させてください。（穴埋め問題）</li>
+<li>　条件：3の倍数のときは「3の倍数です」と出力してください。</li>
+<li>　　　　3の倍数で27のときは何も出力しません。(continue)</li>
+<li>　　　　50以上は出力をせずにループを終了してください。(break)</li>
+
+<li>JavaScriptのコードが書けたら保存をしてブラウザの更新で実行してみてください。</li>
+</br>
+<li>ヒント：</br>
+「3の倍数である」ということは、「3で割った余りが0と等しい」という条件と同じです。</br>
+  3の倍数の式は「number % 3 === 0」となります。
+</li>
+
+</ul>
+</div>
+
+</br>
+</br>
+
+<div id="menu">
+<ul>
+  <li><a href="../../index.html#section3" style="width: fit-content;">トップページに戻る</a></li>
+</ul> 
+</div>
+
+<p>
+（補足）</br>
+このHTMLファイルの中で 下記のような script.js ファイルを読み込むコードが入っています。</br>
+　HTMLファイルの記述内容</br>
+  　&ltscript src = "./script.js"&gt</br>
+  　&lt/script&gt</li></br>
+スクリプトファイルからHTMLのタグを挿入するコードを追加したら、下のスクリプトエリアに表示されます。</br>
+</p>
+<h1>スクリプトエリア</h1>
+<script src="./script.js">
+</script>
+
+
+</body>
+
+</html>
