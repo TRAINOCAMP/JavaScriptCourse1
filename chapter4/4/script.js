@@ -5,7 +5,7 @@ for(let index=0; index<fruits.length; index++){
   console.log(fruits[index]);
 }
 
-//配列の要素の、最初と最後の値は出力しないようにfor文を改造してみてください。
+//配列の要素の、最初と最後の値は出力しないようにfor文を改造してみましょう。
 for(index=1; index<fruits.length-1; index++){
    console.log(fruits[index]);
 }

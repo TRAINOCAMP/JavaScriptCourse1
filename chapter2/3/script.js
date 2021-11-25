@@ -1,13 +1,13 @@
 //定数passwordが定義されています。初期値は文字列"ABC"です。
 const password = "DEF";
 
-//passwordの値が"ABC"と一致しているかという条件のif文を作成してください。
+//passwordの値が"ABC"と一致しているかという条件のif文を作成します。
 //if文の中で"パスワードは一致しています。"とコンソール画面に出力する。
 if (password==="ABC"){
     console.log("パスワードは一致しています。");
 }
 
-//passwordの値がABCではないという条件のif文を作成してください。
+//passwordの値がABCではないという条件のif文を作成します。
 //if文の中で"パスワードは一致していません。"とコンソール画面に出力する。
 if (password!=="ABC"){
     console.log("パスワードは一致していません。");
