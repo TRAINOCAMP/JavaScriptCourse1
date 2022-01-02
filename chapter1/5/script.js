@@ -2,7 +2,7 @@
 const city = "東京都";
 
 // コンソール画面に定数 city の値を出力します。
-console.log(name);
+console.log(city);
 
 // priceという定数を宣言して、数値500を代入します。
 const price = 500;

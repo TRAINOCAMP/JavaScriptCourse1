@@ -9,3 +9,7 @@ const sayHello = () => {
 
 // 定数sayHelloを呼び出してください
 sayHello();
+
+const hello = () => console.log("こんにちは。");
+
+hello();

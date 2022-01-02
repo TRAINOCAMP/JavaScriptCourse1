@@ -27,3 +27,4 @@ const object2 =
 //コンソール画面に２つのオブジェクトの内容を出力します。
 console.log(object1);
 console.log(object2);
+console.log(object1.greet);

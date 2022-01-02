@@ -66,3 +66,4 @@ console.log(member[1].gender);
 //配列のインデックス番号を使い、オブジェクト１と２の関数greetを実行します。
 member[0].greet();
 member[1].greet();
+
